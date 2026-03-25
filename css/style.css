@@ -9,7 +9,19 @@
     --text-primary-color: #222222;
     --text-secondary-color: #FFFFFF;
 
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
+
     --form-line-color: #d9d9d9;
+}
+
+/* FONT */
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    font-style: normal;
+    font-display: swap;
 }
 
 /* CSS RESET */
