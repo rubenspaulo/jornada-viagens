@@ -16,6 +16,8 @@
     --menu-text-weight: 500;
 
     --form-line-color: #d9d9d9;
+
+    --transition: 240ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 /*  FONT
@@ -27,10 +29,39 @@
 } */
 
 /* CSS RESET */
-body, img, h1, p, a, fieldset, legend, label, input, select, textarea, button {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     font-weight: var(--text-weight);
+    color: var(--text-primary-color);
+  }
+
+.section-title h2 {
+    font-size: 2rem;
+    font-weight: var(--title-weight);
+    text-align: center;
+}
+.section-title hr {
+    width: 180px;
+    height: 4px;
+    background: var(--button-secondary-color);
+    border: none;
+    margin: 1rem auto 2rem;
+}
+.button {
+    color: var(--text-secondary-color);
+    font-size: 1.25rem;
+    text-decoration: none;
+    background: var(--button-primary-color);
+    padding: 1rem 0;
+    line-height: 2rem;
+    display: block;
+    border-radius: 1rem;
+    font-weight: var(--title-weight);
+    transition: var(--transition);
+}
+.button:hover {
+    background: var(--button-secondary-color);
 }

@@ -17,3 +17,8 @@
         font-size: 2rem;
     }
 }
+@media screen and (min-width: 1024px) {
+    .hero img {
+        height: 620px;
+    }
+}

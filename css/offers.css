@@ -1,0 +1,69 @@
+.offers-cards {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+.card {
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 588px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    transition: var(--transition);
+}
+.card:hover {
+    transform: translateY(-0.3rem);
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+}
+
+.card > * {
+    position: relative;
+    z-index: 1;
+  }
+  
+
+.card p, .card h3{
+    color: var(--text-secondary-color);
+}
+
+.card p {
+    font-size: 1.25rem;
+}
+.card header h3 {
+    font-size: 2.5rem;
+    font-weight: var(--title-weight);
+    margin-top: 0.5rem;
+}
+.card section p {
+    font-size: 2rem;
+    font-weight: var(--title-weight);
+    margin: 1.5rem 0;
+}
+
+@media screen and (min-width: 700px) {
+    .offers-cards {
+      grid-template-columns: repeat(2, minmax(288px, 1fr));
+      align-items: stretch;
+      margin: 0 auto;
+    }  
+}
+@media screen and (min-witdh: 1024px){
+    .offers-cards {
+        padding: 0;
+    }
+    .card header h3 {
+        font-size: 3rem;
+    }
+    
+}
