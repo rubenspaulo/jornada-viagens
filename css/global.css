@@ -32,4 +32,5 @@ body, img, h1, p, a, fieldset, legend, label, input, select, textarea, button {
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    font-weight: var(--text-weight);
 }
