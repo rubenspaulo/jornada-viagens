@@ -10,6 +10,11 @@
 .popular-destinations .card {
     max-width: 648px;
     min-width: 312px;
+    display: flex;
+    flex-direction: column;
+}
+.popular-destinations .card .button{
+    margin-top: auto;
 }
 .popular-destinations .card img {
     display: block;
@@ -29,10 +34,5 @@
 @media screen and (min-width: 700px) {
     .popular-destinations-cards {
         flex-direction: row;
-    }
-}
-@media screen and (min-width: 1024px) {
-    .popular-destinations-cards{
-        padding: 0;
     }
 }
