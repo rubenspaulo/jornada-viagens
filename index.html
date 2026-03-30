@@ -8,76 +8,163 @@
     <title>Jornada Viagens</title>
   </head>
   <body>
+    <header class="header-container">
+      <div class="header">
+        <a href="/index.html" title="Voltar para a página inicial">
+          <img
+            src="img/logo-branca.png"
+            alt="Bússola na cor branca, logo Jornada Viagens"
+          />
+          <img
+            src="img/logo-branca-desktop.png"
+            alt="Bússola na cor branca, logo Jornada Viagens"
+          />
+        </a>
 
-<header class="header-container">
-  <div class="header">
-    <a href="/index.html" title="Voltar para a página inicial">
-      <img src="img/logo-branca.png" alt="Bússola na cor branca, logo Jornada Viagens" />
-      <img src="img/logo-branca-desktop.png" alt="Bússola na cor branca, logo Jornada Viagens" />
-    </a>
-  
-    <div class="spacer"></div>
-  
-    <input type="checkbox" id="menu" class="menu-toggle" hidden />
-  
-    <label for="menu" class="hamburger" aria-label="Abrir menu" aria-controls="main-nav">
-      <span class="line"></span>
-      <span class="line"></span>
-      <span class="line"></span>
-    </label>
-  
-    <label for="menu" class="overlay" aria-hidden="true"></label>
-  
-    <nav id="main-nav" class="drawer" aria-label="Menu principal">
-      <ul>
-        <li><a href="/blog.html" title="Acessar Blog">Blog</a></li>
-        <li><a href="/pacotes.html" title="Acessar Pacotes de viagem">Pacotes de viagem</a></li>
-        <li><a href="/contato.html" title="Acessar Contato">Contato</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<section class="hero">
-  <picture>
-    <source media="(min-width: 1024px)" srcset="img/hero-desktop.jpg">
-    <source media="(min-width: 700px)" srcset="img/hero-tablet.jpg">
-<img src="img/hero-mobile.jpg" alt="Homem navegando de barco nas Ilhas Maldivas">
-  </picture>
-  <p>Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades, cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!</p>
-</section>
-<main>
-  <section class="offers">
-  <div class="section-title">
-    <h2>Ofertas da Semana</h2>
-    <hr>
-    <div class="offers-cards">
-      <article class="card" style="background-image: url('./img/toquio.jpg');">
-        <header><p>HOTEL + AÉREO</p>
-        <h3>Tóquio</h3></header>
-        <section><p>R$ 4000</p></section>
-        <footer><a class="button" href="#">Ver detalhes</a></footer>
-      </article>
-      <article class="card" style="background-image: url('./img/san-andreas.jpg');">
-        <header><p>HOTEL + AÉREO</p>
-        <h3>San Andreas</h3></header>
-        <section><p>R$ 3000</p></section>
-        <footer><a class="button" href="#">Ver detalhes</a></footer>
-      </article>
-      <article class="card" style="background-image: url('./img/paraiba.jpg');">
-        <header><p>HOTEL + AÉREO</p>
-        <h3>Paraíba</h3></header>
-        <section><p>R$ 1200</p></section>
-        <footer><a class="button" href="#">Ver detalhes</a></footer>
-      </article>
-      <article class="card" style="background-image: url('./img/manaus.jpg');">
-        <header><p>HOTEL + AÉREO</p>
-        <h3>Manaus</h3></header>
-        <section><p>R$ 1600</p></section>
-        <footer><a class="button" href="#">Ver detalhes</a></footer>
-      </article>
+        <div class="spacer"></div>
+
+        <input type="checkbox" id="menu" class="menu-toggle" hidden />
+
+        <label
+          for="menu"
+          class="hamburger"
+          aria-label="Abrir menu"
+          aria-controls="main-nav"
+        >
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </label>
+
+        <label for="menu" class="overlay" aria-hidden="true"></label>
+
+        <nav id="main-nav" class="drawer" aria-label="Menu principal">
+          <ul>
+            <li><a href="/blog.html" title="Acessar Blog">Blog</a></li>
+            <li>
+              <a href="/pacotes.html" title="Acessar Pacotes de viagem"
+                >Pacotes de viagem</a
+              >
+            </li>
+            <li><a href="/contato.html" title="Acessar Contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <picture>
+        <source media="(min-width: 1024px)" srcset="img/hero-desktop.jpg" />
+        <source media="(min-width: 700px)" srcset="img/hero-tablet.jpg" />
+        <img
+          src="img/hero-mobile.jpg"
+          alt="Homem navegando de barco nas Ilhas Maldivas"
+        />
+      </picture>
+      <p>
+        Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
+        à seleção das atividades, cuidamos de todos os detalhes para que você
+        aproveite ao máximo cada momento da sua jornada!
+      </p>
+    </section>
+    <main>
+      <section class="offers">
+        <div class="section-title">
+          <h2>Ofertas da Semana</h2>
+          <hr />
+        </div>
+        <div class="offers-cards">
+          <article
+            class="card"
+            style="background-image: url('./img/toquio.jpg')"
+          >
+            <header>
+              <p>HOTEL + AÉREO</p>
+              <h3>Tóquio</h3>
+            </header>
+            <section><p>R$ 4000</p></section>
+            <footer><a class="button" href="#">Ver detalhes</a></footer>
+          </article>
+          <article
+            class="card"
+            style="background-image: url('./img/san-andreas.jpg')"
+          >
+            <header>
+              <p>HOTEL + AÉREO</p>
+              <h3>San Andreas</h3>
+            </header>
+            <section><p>R$ 3000</p></section>
+            <footer><a class="button" href="#">Ver detalhes</a></footer>
+          </article>
+          <article
+            class="card"
+            style="background-image: url('./img/paraiba.jpg')"
+          >
+            <header>
+              <p>HOTEL + AÉREO</p>
+              <h3>Paraíba</h3>
+            </header>
+            <section><p>R$ 1200</p></section>
+            <footer><a class="button" href="#">Ver detalhes</a></footer>
+          </article>
+          <article
+            class="card"
+            style="background-image: url('./img/manaus.jpg')"
+          >
+            <header>
+              <p>HOTEL + AÉREO</p>
+              <h3>Manaus</h3>
+            </header>
+            <section><p>R$ 1600</p></section>
+            <footer><a class="button" href="#">Ver detalhes</a></footer>
+          </article>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="section-title">
+          <h2>Busque por Categoria</h2>
+          <hr />
+        </div>
+        <div class="categories-cards">
+          <div class="card">
+            <div class="icon">
+              <div class="icon">
+                <img
+              src="./img/pacotes-nacionais.png"
+              alt="Turista caminhando apoiado em um cajado"
+            />
+              </div>
+            </div>
+            <h3>Pacotes Nacionais</h3>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img
+              src="./img/pacotes-internacionais.png"
+              alt="Avião"
+            />
+            </div>
+            <h3>Pacotes Internacionais</h3>
+          </div>
+          <div class="card">
+    <div class="icon">
+      <img
+      src="./img/transfer.png"
+      alt="Ônibus"
+    />
     </div>
-  </div>
-  </section>
-</main>
+            <h3>Transfer</h3>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img
+              src="./img/seguro-viagem.png"
+              alt="Globo Terrestre protegido com um cadeado"
+            />
+            </div>
+            <h3>Seguro Viagem</h3>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

@@ -42,6 +42,7 @@
     font-size: 2rem;
     font-weight: var(--title-weight);
     text-align: center;
+    margin-top: 5.5rem;
 }
 .section-title hr {
     width: 180px;
