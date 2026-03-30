@@ -43,9 +43,8 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .categories-cards {
     grid-template-columns: repeat(4, minmax(220px, 1fr));
-    padding: 0;
   }
 }
