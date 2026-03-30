@@ -3,12 +3,11 @@
     margin: 0 auto;
     max-width: 1200px;
     flex-direction: column;
-    gap: 1rem
-    ;
+    gap: 1rem;
+    padding: 0 2rem;
 }
 
 .popular-destinations .card {
-    padding: 1.5rem 1rem;
     max-width: 648px;
     min-width: 312px;
 }
@@ -33,7 +32,7 @@
     }
 }
 @media screen and (min-width: 1024px) {
-    .popular-destinations-cards .card{
+    .popular-destinations-cards{
         padding: 0;
     }
 }
