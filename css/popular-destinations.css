@@ -18,14 +18,6 @@
     width: 100%;
     aspect-ratio: 1.3;
 }
-.popular-destinations .card h3 {
-    margin: 1.5rem 0;
-}
-.popular-destinations .card p {
-    font-size: 1.25rem;
-    line-height: 2rem;
-    margin: 1.5rem 0;
-}
 @media screen and (min-width: 700px) {
     .popular-destinations-cards {
         flex-direction: row;
