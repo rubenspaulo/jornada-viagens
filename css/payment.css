@@ -1,11 +1,4 @@
-.payment-container {
-    max-width: 1200px;
-    padding: 0 2rem;
-    margin: 0 auto;
-}
 .payment-details h3{
-    font-size: 1.75rem;
-    font-weight: var(--title-weight);
     margin: 1.5rem 0;
 }
 .payment-details p {
@@ -14,8 +7,6 @@
     margin: 1.5rem 0;
 }
 .payment-images {
-    display: grid;
-    gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
 }
 .payment-images img{

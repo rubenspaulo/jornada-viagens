@@ -1,9 +1,4 @@
 .categories-cards {
-  display: grid;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  gap: 1rem;
   grid-template-columns: 1fr;
 }
 
@@ -12,7 +7,6 @@
   padding: 1.5rem 1rem;
   border-radius: 0.5rem;
   text-align: center;
-  font-size: 1.75rem;
   height: 220px;
   width: 100%;
   display: flex;
@@ -33,7 +27,6 @@
 }
 
 .categories .card h3 {
-  font-weight: var(--title-weight);
   margin-top: auto;
 }
 
