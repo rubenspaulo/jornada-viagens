@@ -1,0 +1,46 @@
+.ratings-container{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 2rem;
+}
+.ratings-container article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ratings-container .content-text{
+    margin: 0.5rem;
+}
+.user-info {
+    display: grid;
+    grid-template-columns: 86px 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1rem;
+    align-items: center;
+    justify-items: flex-start;
+}
+.user-info h3 {
+    font-size: 1.25rem;
+}
+.user-info img {
+    grid-row: span 2;
+}
+.rating {
+    font-size: 2rem;
+    color: var(--button-secondary-color);
+    display: inline-block;
+    position: relative;
+    --rating: attr(data-rating number);
+}
+.rating::before {
+    content: "★★★★★";
+    position: absolute;
+    width: calc(var(--rating) * 20%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+@media screen and (min-width: 1024px) {
+    .ratings-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
