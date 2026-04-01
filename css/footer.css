@@ -20,6 +20,11 @@
 .footer-content img {
     width: 160px;
 }
+.sns {
+        justify-self: center;
+        gap: 1rem;
+        text-align: center;
+}
 .sns img {
     width: 32px;
 }
@@ -27,11 +32,6 @@
     .footer-content {
         grid-template-columns: 2fr 1fr;
         justify-items: start;
-    }
-    .sns {
-        justify-self: center;
-        gap: 1rem;
-        text-align: center;
     }
     .banner img {
         height: 600px;
