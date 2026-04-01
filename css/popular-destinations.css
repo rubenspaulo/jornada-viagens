@@ -6,7 +6,6 @@
 
 .popular-destinations .card {
     max-width: 648px;
-    min-width: 312px;
     display: flex;
     flex-direction: column;
 }
